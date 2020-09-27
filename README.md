@@ -1,39 +1,23 @@
+# ServiceMeow
+
 ```
- ______   __  __    ______    __   __    ______    __     __
-/\  == \ /\ \_\ \  /\  ___\  /\ "-.\ \  /\  __ \  /\ \  _ \ \
-\ \  _-/ \ \____ \ \ \___  \ \ \ \-.  \ \ \ \/\ \ \ \ \/ ".\ \
- \ \_\    \/\_____\ \/\_____\ \ \_\\"\_\ \ \_____\ \ \__/".~\_\
-  \/_/     \/_____/  \/_____/  \/_/ \/_/  \/_____/  \/_/   \/_/
-		- Python library for ServiceNow
+ /\_/\
+( o.o )
+ > ^ <
+ServiceMeow!
 ```
 
-[![image](https://travis-ci.org/rbw/pysnow.svg?branch=master)](https://travis-ci.org/rbw/pysnow)
-[![image](https://coveralls.io/repos/github/rbw0/pysnow/badge.svg?branch=master)](https://coveralls.io/github/rbw0/pysnow?branch=master)
-[![image](https://badge.fury.io/py/pysnow.svg)](https://pypi.python.org/pypi/pysnow)
-[![image](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![image](https://pepy.tech/badge/pysnow/month)](https://pepy.tech/project/pysnow)
+Fork of pysnow, by Robert Wikman.
 
+Under construction.
 
-Documentation
----
+## Features to add:
 
-The documentation is available at [https://pysnow.readthedocs.io](https://pysnow.readthedocs.io)
-
-
-Development status
----
-
-The development status of pysnow is stable; maintenence will be performed, but no new features added.
-
-New features goes into [rbw/aiosnow](https://github.com/rbw/aiosnow): a modern, asynchronous library for interacting with ServiceNow.
-
-Author
----
-
-Robert Wikman \<rbw@vault13.org\>
-
-Credits
----
-
-Thank you [@contributors](https://github.com/rbw/pysnow/graphs/contributors), and [Jetbrains](http://www.jetbrains.com) for IDE licenses.
-
+* send emails from tickets
+* automate session management
+* hopefully make the query builder easier to use for non devs
+* add an easy to use wrapper to automate specific tasks
+* improve support for catalog tasks
+* add dynamic linking of names and other dynamic fields.
+* write docs for the new Features
+* raise hell, Praise Dale.
